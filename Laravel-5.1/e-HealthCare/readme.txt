@@ -1,0 +1,1 @@
+this site is a for management of a hospital system where remotly a patients condition can be seen and can know what is the doctors opinion about the patients.

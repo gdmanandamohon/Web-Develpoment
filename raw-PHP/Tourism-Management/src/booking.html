@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/easySlider1.7.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true
+			});
+		});	
+	</script>
+<link rel="stylesheet" type="text/css" href="css/style-s.css"/>
+<link rel="stylesheet" type="text/css" href="css/screen.css"/>
+</head>
+<body>
+ <div id="main">
+   <header>
+     <div class="top_area">
+       <div class="logo"><img src="image/logo-1.png" width="270" height="130" alt="image"/></div>
+        <div class="heading">
+               <h1>Welcome to our service</h1>
+               <h3 class="hot_line">Contact us :01740000006, 01741535503.</h3>
+          </div>
+         </div>
+          <nav class="menu">
+            <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">PLACES</a>
+                           <ul class="drop_down">
+                                    <li><a href="coxsbazar.html">COX'S BAZAR</a></li>
+                                    <li><a href="bandarbon.html">BANDARBON</a></li>
+                                    <li><a href="rangamati.html">RANGAMATI</a></li>
+                                    <li><a href="sylhet.html">sylhet</a></li>
+                                    <li><a href="sundarban.html">SUNDARBAN</a></li>
+                                    <li><a href="shatgumboj.html">SHAT GUMBOUG</a></li>
+                                  </ul>
+                        </li>
+                       <li><a href="service.html">SERVICES</a></li>
+                       <li><a href="booking.html">BOOKING</a></li>
+                       <li><a href="my-info.html">MY INFO</a></li>
+                       <li><a href="contact.html">CONTACT US</a></li>
+                     </ul>
+            </nav>
+          <div class="clrfix"></div>
+   </header>
+        <section>
+            <div class="">
+                <h3 class="title">Booking Here :</h3>
+                <form action="bookingRequest.php" method="POST">
+                    <table border="0" cellspacing="0" cellpadding="5" bgcolor="#ffffff" style="padding:15px;">
+                        <tr>
+                            <td><label>Select a place:</label></td>
+                            <td>
+                                <select name="select_place">
+                                    <option value="bandarban">Bandarban</option>
+                                    <option value="sixtygambuj">60 Gambuj Masjid</option>
+                                    <option value="coxbazar">Cox-bazar</option>
+                                    <option value="rngamati">Rangamati</option>
+                                    <option value="syhlet">Syhlet</option>
+                                    <option value="sndban">Sundarban</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Name:</label></td>
+                            <td><input name="inp_name" type="text" size="25" id ='inp_name'/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Packages:</label></td>
+                            <td class="radio_select"><input type="radio" name="package_type" value="3" checked="checked" />
+                                <label>3 Days</label>
+                                <input type="radio" name="package_type" value="5"  />
+                                <label>5 Days</label></td>
+                        </tr>
+                        <tr>
+                            <td><label>Month:</label></td>
+                            <td><select name="select_month">
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select></td>
+                            <td><label>Date:</label></td>
+                            <td><select name="select_date">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label>Time:</label></td>
+                            <td><select name="select_time">
+                                <option>6 AM</option>
+                                <option>7 AM</option>
+                                <option>8 AM</option>
+                                <option>9 AM</option>
+                                <option>10 AM</option>
+                                <option>11 AM</option>
+                                <option>12 PM</option>
+                                <option>1 PM</option>
+                                <option>2 PM</option>
+                                <option>3 PM</option>
+                                <option>4 PM</option>
+                                <option>5 PM</option>
+                                <option>6 PM</option>
+                                <option>7 PM</option>
+                                <option>8 PM</option>
+                                <option>9 PM</option>
+                                <option>10 PM</option>
+                                <option>11 PM</option>
+                                <option>12 AM</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label>Description:</label></td>
+                            <td><textarea cols="20" rows="3" name="text_discript"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Amount:</label></td>
+                            <td><input  readonly name="money_amount" type="number" size="20" class="money_amount" value="3000"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email Address:</label></td>
+                            <td><input name="cus_email" type="text" size="25" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Reset:</label></td>
+                            <td><input type="reset" value="Reset" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Submit:</label></td>
+                            <td><input type="submit" value="Submit Now" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+ </div>
+          </section>
+         <section>
+           <div class="footer">
+             <h4>All right reserved by &copy; tourismcares@gmail.com</h4>
+            </div>
+          </section>
+  </div>
+    <script type="text/javascript">
+        $('.radio_select').change(function(){
+            if($('input[name="package_type"]:checked').val() ==3)
+            $('.money_amount').val(3000);
+            else
+                $('.money_amount').val(5000);
+        });
+    </script>
+ </body>
+</html>

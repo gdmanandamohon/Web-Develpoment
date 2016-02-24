@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/easySlider1.7.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true
+			});
+		});	
+	</script>
+<link rel="stylesheet" type="text/css" href="css/style-s.css"/>
+<link rel="stylesheet" type="text/css" href="css/screen.css"/>
+</head>
+<body>
+ <div id="main">
+   <header>
+     <div class="top_area">
+       <div class="logo"><img src="image/logo-1.png" width="270" height="130" alt="image"/></div>
+        <div class="heading"><h1>Welcome to our service</h1></div>
+         </div>
+          <nav class="menu">
+            <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">PLACES</a>
+                           <ul class="drop_down">
+                                    <li><a href="coxsbazar.html">COX'S BAZAR</a></li>
+                                    <li><a href="bandarbon.html">BANDARBON</a></li>
+                                    <li><a href="rangamati.html">RANGAMATI</a></li>
+                                    <li><a href="sylhet.html">sylhet</a></li>
+                                    <li><a href="sundarban.html">SUNDARBAN</a></li>
+                                    <li><a href="shatgumboj.html">SHAT GUMBOUG</a></li>
+                                  </ul>
+                        </li>
+                       <li><a href="service.html">SERVICES</a></li>
+                       <li><a href="booking.html">BOOKING</a></li>
+                       <li><a href="my-info.html">MY INFO</a></li>
+                       <li><a href="contact.html">CONTACT US</a></li>
+                     </ul>
+            </nav>
+          <div class="clrfix"></div>
+   </header>       	
+        <section>
+          <div class="middle_area">
+            <center>
+
+  <table border="0" cellspacing="0" cellpadding="6" bgcolor="#ffffff" style="padding:25px; border:1px solid #ccc; ">
+    <form action= "cancelRequest.php" method="post">
+
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input name="customer_name" type="text" size="25" /></td>
+        </tr>
+        <tr>
+            <td><label>Email Address:</label></td>
+            <td><input name="customer_email" type="text" size="25" /></td>
+        </tr>
+
+        <tr>
+            <td><label>Packages:</label></td>
+            <td><input type="radio" name="customer_package" value="3 Days" checked="checked" />
+                <label>3 Days</label>
+                <input type="radio" name="customer_package" value="5 Days" />
+                <label>5 Days</label></td>
+        </tr>
+        <tr>
+            <td><label>Option:</label></td>
+            <td><select name="select_place">
+                <option value="bandarban">Bandarban</option>
+                <option value="sixtygambuj">60 Gambuj Masjid</option>
+                <option value="coxbazar">Cox-bazar</option>
+                <option value="rngamati">Rangamati</option>
+                <option value="syhlet">Syhlet</option>
+                <option value="sndban">Sundarban</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Description:</label></td>
+            <td><textarea cols="33" rows="6" name="textarea_dicript"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label>Reset:</label></td>
+            <td><input type="reset" value="Reset" /></td>
+        </tr>
+
+        <tr>
+            <td><label>Submit:</label></td>
+            <td><input type="submit" value="Submit Now" /></td>
+        </tr>
+    </form>
+  </table>
+
+    </center>
+            </div>
+           <div class="clrfix"></div>
+         </section>
+         <section>
+           <div class="footer">
+             <h4>All right reserved by &copy; tourismcares@gmail.com</h4>
+            </div>
+          </section>
+  </div>
+ </body>
+</html>

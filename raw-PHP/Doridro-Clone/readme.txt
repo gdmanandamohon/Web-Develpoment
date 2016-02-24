@@ -1,0 +1,1 @@
+this is a forum posting site like as new audio, video, movie, songs. all of the items are catagorised form a admin panel. a public user can also post a new topics in different categories. 
