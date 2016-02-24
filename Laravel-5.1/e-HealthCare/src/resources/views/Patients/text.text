@@ -1,0 +1,9 @@
+//$retriveALLMM =  ECGTableHandle::whereRaw('date(created_at) = ?', [Carbon::today()])->where('patient_id', $patient_id )->get();  //for toady
+            ///$retriveALLMM =  ECGTableHandle::whereRaw('date(created_at) = ?', [Carbon::yesterday()])->where('patient_id', $patient_id )->get(); //for yesterday
+            //$retriveALLMM =  ALLMMTableHandle::where('created_at', '>=', Carbon::now()->startOfWeek())->get(); //from starting of week
+            //$retriveALLMM = ALLMMTableHandle::where('created_at', '>=', Carbon::now()->subWeek())->get();  //for last 7 days
+            //$retriveALLMM = ALLMMTableHandle::whereBetween('created_at', [Carbon\Carbon::now(), Carbon\Carbon::now()->addWeek()]);
+            //$retriveALLMM =  ALLMMTableHandle::whereRaw('date(created_at) = ?', [Carbon::today()])->where('patient_id', $patient_id )->get();
+            //$retriveALLMM =  ALLMMTableHandle::whereRaw('date(created_at) = ?', [Carbon::today()])->get()->where('patient_id', $patient_id );
+            //$retriveALLMM =  ECGTableHandle::whereRaw('date(created_at) = ?', [Carbon::today()])->get();
+

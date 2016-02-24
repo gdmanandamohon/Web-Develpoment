@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2014, 8:12:36 PM
+    Author     : Ananda Mohon Ghosh
+*/
+
+body{ margin: 0; 
+      padding: 0 ;
+	background-image: url(../images/bg-body.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+}
+.main-body{ background: #ccccff; width: 960px; margin:2px auto; margin-top: 50px}
+/*************************
+            Header
+*************************/
+.header{ height: 50px;}
+.namefield{  float: left}
+.namefield h5{padding-left: 100px;}
+.imagefild{ width: 60px; float: left}
+.imagefild img{width: 40px; height: 40px; padding: 5px 10px 5px 10px; border-radius:50%}
+.logout{width: 200px; float: right}
+.view-area{padding-left: 100px; padding-top: 20px; }
+.view-area h2 { border: 1px solid #3333ff;margin-right: 100px; color: #cc00cc}
+.view-area h4 {padding-left: 20px;  border: 1px solid #3333ff; margin-right: 100px; color:brown}
+.view-area h4 a{text-decoration:  none; color: blueviolet}
+.view-area-image{margin-right: 100px; max-width: 760px}
+
+/*************************
+            PostField
+*************************/
+
+
+
+
+/*************************
+            footer
+*************************/
+footer{text-align: center; margin-top: 8%}
+footer a{text-decoration: none;}

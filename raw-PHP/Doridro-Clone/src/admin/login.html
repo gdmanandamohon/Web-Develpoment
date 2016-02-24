@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Login User
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/postuserLogin.css" rel="stylesheet" type="text/css">
+    <script src="js/returnuser.js"></script>
+  </head>
+  <body>
+    <div class="main_body" >
+      <div class="main_body_top" >
+        <image  src="Images/doridro_logo.png" alt=""/>
+        <h2>
+          Welcome to Doridro Admin Login Page
+        </h2>
+      </div>
+      <div class="main_body_center">
+        <img src="Images/lock.png" alt =""/>
+        <form id="login" name="admin" method="post" action="verrifylogin.php">
+          
+          <div class="main_body_center_log_in_box">
+            <img src="Images/lock_small.png" alt=""/>
+            <div class="main_body_center_log_in_box_freespace">
+              
+            </div>
+            <h4>
+              User ID :
+            </h4>
+            <input type="text" name="username" id="username"/>
+            <div class="main_body_center_log_in_box_freespace">
+              
+            </div>
+            <h4>
+              Password : 
+            </h4>
+            <input type="password" id="password" name="password"/>
+            <div class="main_body_center_log_in_box_freespace">
+              
+            </div>
+            <input name="Submit" type="submit"  onClick="return User()"  class="sttxt_btn" value="Login"/>
+          </div>
+          
+        </form>
+      </div>
+      <div class ="main_body_footer">
+        
+        <center>
+          <h3>
+            &COPY; Copyright to 
+            <a href="https://doridro.com">
+              Doridro.com
+            </a>
+          </h3>
+        </center>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>
+
+
+

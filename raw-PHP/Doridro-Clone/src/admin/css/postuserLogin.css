@@ -1,0 +1,69 @@
+*{ margin: 0; padding: 0}
+@font-face {
+    font-family: 'Droid-Sherif';
+    src: local('Blokletters Balpen Balpen'), local('Blokletters-Balpen'), url('../fonts/DroidSerif.ttf') format('truetype');
+}
+body{font-family:Droid-Sherif; line-height: 20px; font-size: 12px; background-image: url(Images/wraper_mainpage.jpg)}
+
+.main_body{
+    width: 960px; 
+    margin: 20px auto;  
+    height: 680px; 
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.main_body_top {
+
+}
+
+.main_body_center {
+
+
+}
+.main_body_center img{
+    margin-left: 200px;
+}
+
+
+
+.main_body_center_log_in_box {
+    width: 250px;
+    
+    height: 350px;
+    margin-top: -300px;
+    margin-left: 300px;
+}
+.main_body_center_log_in_box img{
+    margin-left: -25px;
+    margin-top: 10px;
+    transform:rotate(30deg);
+}
+.main_body_center_log_in_box h4 {
+font-size: 20px;
+font-family: serif;
+color: #A3A3A3;
+margin-left: 65px;
+
+
+}
+.main_body_center_log_in_box input{
+    height: 25px;
+    margin-left: 65px;
+    border-bottom: aqua;
+    border-radius: 5px;
+    width: 175px;
+    border-bottom: #ff0000;
+}
+#password{
+    font-size: 25px;
+    
+}
+.sttxt_btn:hover{ color:  #F1F1F1} 
+.main_body_center_log_in_box_freespace {
+height: 10px;
+}
+
+.main_body_footer h3{
+  
+}
+.sttxt_btn{background-color:#BB99BB; width: 60px;border:#353535 1px solid}
